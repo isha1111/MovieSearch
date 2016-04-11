@@ -1,0 +1,10 @@
+
+<div id ="list">
+<h2>Search Results matching your enquiry</h2>
+<% @result.each do |movie| %>
+<tr>
+   <td><a href="/display?id=<%= movie["imdbID" ]%>"><%= movie['Title'] %></a></td>
+</td> </tr></br>
+<% end %>
+</div>
+

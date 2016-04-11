@@ -1,0 +1,30 @@
+<div id="container">
+<p>Search Result for <a><%=  @title%></a></p>
+<div id="movieDetail">
+	<table>
+		<tr>
+			<td>Title of the Movie: </td>
+			<td> <%= @title %> </td>
+		</tr>
+		<tr>
+			<td>Realesed in Year: </td>
+			<td><%= @year %></td>
+		</tr>
+		<tr>
+			<td>Director: </td>
+			<td><%= @director %></td>
+		</tr>
+		<tr>
+			<td>Actors: </td>
+			<td><%= @actors %></td>
+		</tr>
+	</table>
+</div>
+
+<div id="movieImg">
+<img src = <%= @image %>>
+</div>
+
+<button id="backBtn">Back</button>
+
+</div>

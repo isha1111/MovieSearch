@@ -1,0 +1,99 @@
+body {
+	background-color: black;
+	color: white;
+}
+header {
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+/*	background-color: black;
+*/
+}
+#container {
+	margin-top: 50px;
+}
+#movieImg {
+	width: 35%;
+	vertical-align: top;
+	text-align: left;
+	display: inline-block;
+}
+img {
+	max-height: 250px;
+}
+#movieDetail {
+	width: 62%;
+	display: inline-block;
+}
+
+#subTitle {
+	font-family: 'Architects Daughter', cursive;
+	text-align: center;
+	font-weight: bold;
+	border-bottom: 1px solid white;
+	padding-bottom: 5px;
+	font-size: 17px;
+}
+a {
+	color: red;
+	text-align: center;
+	font-size: 40px;
+}
+
+#ga {
+	color: white;
+}
+
+#movieDetails {
+	text-align: center;
+	margin-top: 50px;
+}
+#backBtn {
+	margin: 10px auto;
+	display: block;
+}
+table {
+	display: inline-block;
+	margin: 40px auto;
+	padding-left: 100px;
+	padding-top: 20px;
+}
+tr {
+	text-align: left;
+	font-size: 17px;
+}
+#container p {
+	text-align: center;
+	padding-bottom: 15px;
+	font-size: 30px;
+}
+#container p a {
+	color: red;
+	font-size: 30px;
+}
+#movie {
+	margin-bottom: 20px;
+}
+#footer {
+	margin-top: 50px;
+	text-align: center;
+}
+p {
+	margin-top: 0;
+}
+#movieLabel {
+	margin-left: 50px;
+	margin-right: 20px;
+}
+#list {
+	display: block;
+	text-align: center;
+}
+#list a {
+	cursor: pointer;
+	font-size: 20px;
+	color: white;
+	text-decoration: underline;
+}
+
