@@ -6,10 +6,11 @@
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
 <body>
-	<header><a id ="ga">GA</a><a>M</a>ovie<a>D</a>atabase</header>
-	<p id = "subTitle">Searching for movies has never been so easy!</p>
-	<%= yield %> 
+	<header><a href="/"><span id ="ga">GA</span><span>M</span>ovie<span>D</span>atabase</a></header>
+	<a href="/"><p id = "subTitle">Searching for movies has never been so easy!</p></a>
+	<!-- header is a link that takes the user to home screen when clicked -->
+	<%= yield %>
+	<!-- footer -->
 	<footer id ="footer">&copy; Isha 2016</footer>
-
 </body>
 </html>

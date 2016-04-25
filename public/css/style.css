@@ -7,8 +7,6 @@ header {
 	font-size: 20px;
 	text-align: center;
 	color: white;
-/*	background-color: black;
-*/
 }
 #container {
 	margin-top: 50px;
@@ -26,7 +24,6 @@ img {
 	width: 62%;
 	display: inline-block;
 }
-
 #subTitle {
 	font-family: 'Architects Daughter', cursive;
 	text-align: center;
@@ -35,16 +32,23 @@ img {
 	padding-bottom: 5px;
 	font-size: 17px;
 }
-a {
+#movieLink {
+	color: white;
+	font-size: 15px;
+}
+span {
 	color: red;
 	text-align: center;
 	font-size: 40px;
 }
-
+#search {
+	color: gray;
+	float: right;
+	font-size: 15px;
+}
 #ga {
 	color: white;
 }
-
 #movieDetails {
 	text-align: center;
 	margin-top: 50px;
@@ -60,7 +64,7 @@ table {
 	padding-top: 20px;
 }
 tr {
-	text-align: left;
+	text-align: center;;
 	font-size: 17px;
 }
 #container p {
@@ -88,7 +92,7 @@ p {
 }
 #list {
 	display: block;
-	text-align: center;
+	text-align: left;
 }
 #list a {
 	cursor: pointer;
@@ -96,4 +100,7 @@ p {
 	color: white;
 	text-decoration: underline;
 }
-
+a{
+	text-decoration: none;
+	color: white;
+}

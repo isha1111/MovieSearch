@@ -1,0 +1,5 @@
+<!-- lists all the movies previously searched by user -->
+<% movie=Movie.all %>
+<% movie.each do |x|  %>
+<a id="movieLink" href="/movie?id=<%= x.id %>" > <%= x.name  %></a></br>
+<% end %>
