@@ -1,0 +1,37 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    httparty (0.13.7)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    json (1.8.3)
+    multi_xml (0.5.5)
+    pg (0.18.4)
+    rack (1.6.4)
+    rack-protection (1.5.3)
+      rack
+    rails_12factor (0.0.3)
+      rails_serve_static_assets
+      rails_stdout_logging
+    rails_serve_static_assets (0.0.5)
+    rails_stdout_logging (0.0.5)
+    sinatra (1.4.7)
+      rack (~> 1.5)
+      rack-protection (~> 1.4)
+      tilt (>= 1.3, < 3)
+    sinatra-flash (0.3.0)
+      sinatra (>= 1.0.0)
+    tilt (2.0.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  httparty
+  pg
+  rails_12factor
+  sinatra
+  sinatra-flash
+
+BUNDLED WITH
+   1.11.2
