@@ -1,5 +1,6 @@
 require 'sinatra'
 require 'httparty'
+require 'bcrypt'
 
 require './db_config'
 require './model/movie'
