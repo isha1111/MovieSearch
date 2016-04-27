@@ -1,5 +1,5 @@
 #Movie Seacrh
-Searching for movies has been real easy thanks to api ombd :)
+Searching for movies has been real easy thanks to api omdb
 
 ### Features
 Search any movie you like and it will come up with serach results.
